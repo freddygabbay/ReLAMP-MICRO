@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AGPC 2025 Workshop - Call for Papers</title>
-    <title>ARM-based General-Purpose Computing: Software-Hardware Co-Optimization for Performance Accelerationp</title>
-
-    
+    <title>Efficient Microarchitectures for Resilient Large Model Processing (Re-LAMP) Workshop</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #333;
+            padding: 0;
         }
         h1, h2, h3 {
-            color: #0056b3;
+            color: #2c3e50;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         ul {
             margin: 10px 0;
@@ -26,216 +28,84 @@
         li {
             margin-bottom: 5px;
         }
-        .important-dates, .submission-guidelines {
-            background-color: #e9f5ff;
-            padding: 15px;
-            border-left: 4px solid #0056b3;
+        .important-dates, .topics, .submission-guidelines, .program-committee, .contact {
             margin-bottom: 20px;
-        }
-        footer {
-            margin-top: 30px;
-            font-size: 0.9em;
-            color: #777;
         }
     </style>
 </head>
 <body>
-    <figure>
-        <img src="Picture1.png" alt=" " 
-            style="width: 25%; height: auto;"/>
-    </figure>
 
-    <h1>AGPC 2025 Workshop - Call for Papers</h1>
-    <h1>ARM-based General-Purpose Computing: Software-Hardware Co-Optimization for Performance Acceleration</h1>
+    <h1>Efficient Microarchitectures for Resilient Large Model Processing (Re-LAMP) Workshop</h1>
+    <p><strong>Held in conjunction with MICRO-2025</strong></p>
+    <p><strong>October 18th, 1pm-5pm</strong></p>
 
-    <p>June 21st 2025 @ Tokyo, Japan</p>
-    <p>Room: Okuma-large </p>
+    <h2>EMR-LMP Workshop Call for Papers</h2>
+    <h3>About the Workshop</h3>
+    <p>The rapid evolution of Large Language Models (LLMs) and the emergence of Large Multimodal Models (LMMs) are revolutionizing various domains. Simultaneously, the pursuit of very long-context LLMs (e.g., 1M context length) is pushing the boundaries of what these models can achieve. However, the immense computational, memory, and power requirements of these advanced models present formidable challenges to current hardware and system designs.</p>
+    <p>Fortunately, large models, including LLMs, LMMs, and those handling extended contexts, often exhibit inherent resiliency to noise and approximation. This workshop aims to harness this property by exploring microarchitectural innovations and system-level techniques that exploit such resiliency to significantly improve performance, power efficiency, and memory utilization. Our focus will extend beyond traditional LLMs to encompass the unique challenges and opportunities presented by multimodal data and extremely long contexts.</p>
+    <p>Topics will include, but are not limited to, approximate computing, dynamic quantization, and adaptive methods that apply different levels of approximation or quantization across layers within these complex models. Additionally, the workshop will address critical memory efficiency concerns through novel data compression techniques that leverage model resiliency to reduce memory footprint, especially crucial for LMMs and long-context LLMs, while maintaining or even improving model performance.</p>
+    <p>By bringing together researchers, practitioners, and industry experts, the EMR-LMP workshop seeks to foster discussions and drive advancements in efficient microarchitectures and systems for the next generation of large model processing. This will pave the way for more sustainable, scalable, and capable AI solutions.</p>
 
-    <p>Held in conjunction with <a href="https://iscaconf.org/isca2025/">ISCA 2025</a></p>
-
-
-    <h2>About the Workshop</h2>
-    <p>
-The International Symposium on Computer Architecture (ISCA) Workshop on "ARM General-Purpose Computing: Software-Hardware Co-Optimization for Performance Acceleration" aims to bring together researchers, engineers, and industry leaders to explore the latest advancements and innovations in leveraging ARM architecture for high-performance general-purpose computing in data center. With the growing importance of ARM-based systems in data centers and beyond, this workshop focuses on the synergy between software and hardware to achieve significant performance gains. We invite contributions that address novel algorithms, new benchmarks regarding performance and power, microarchitectural designs, hardware accelerators, tightly-coupled architectures, and optimization techniques tailored for ARM instruction set architecture. This workshop seeks to foster a collaborative environment where participants can share insights, challenges, and solutions to drive the future of ARM-based general-purpose computing.    </p>
-    
-    </p>
-
-    <h2>Workshop Agenda:</h2>
-    <table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Topic</th>
-            <th>Speakers</th>
-            <th>Institution</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>14:00 - 14:20</td>
-            <td>Accelerating Hash Aggregate for Big Data Analytics</td>
-            <td>Anirban Nag</td>
-            <td>Huawei Zurich Research Center</td>
-        </tr>
-        <tr>
-            <td>14:20 - 14:40</td>
-            <td>QUETZAL: Vector Acceleration Framework for Modern Genome Sequence Analysis Algorithms</td>
-            <td>Julian Pavon Rivera</td>
-            <td>BSC</td>
-        </tr>
-        <tr>
-            <td>14:40 – 15:00</td>
-            <td>QFlex 3.0: Fast and Accurate ARM Server Simulation</td>
-            <td>Ali Ansari</td>
-            <td>EPFL</td>
-        </tr>
-        <tr>
-            <td>15:00 - 15:20</td>
-            <td>On the Use of Fujitsu A64FX Processor for Genome Sequence Analysis Workloads</td>
-            <td>Julian Pavon Rivera</td>
-            <td>BSC</td>
-        </tr>
-        <tr>
-            <td>15:20 – 15:40</td>
-            <td>Memory Access Vectors: Improving Sampling Fidelity for CPU Performance Simulations</td>
-            <td>Sriyash Caculo</td>
-            <td>Ampere Computing</td>
-        </tr>
-        <tr>
-            <td>15:40 – 16:00</td>
-            <td>Temperature-Guided Instruction Caching Using</td>
-            <td>Dr. Reza Azimi</td>
-            <td>Huawei Technologies (Toronto Heterogeneous Compilers Lab)</td>
-        </tr>
-        <tr>
-            <td>16:00 - 16:30</td>
-            <td>Coffee break</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>16:30 - 16:50</td>
-            <td>Hardware-Software Co-designed Near-Cache Accelerator for Graph Pattern Mining</td>
-            <td>Julian Pavon Rivera</td>
-            <td>BSC</td>
-        </tr>
-        <tr>
-            <td>16:50 - 17:10</td>
-            <td>DEER-Deep-Runahead-for-Instruction-Prefetching</td>
-            <td>Dr. Maziar Goudarzi</td>
-            <td>Huawei Technologies (Toronto Heterogeneous Compilers Lab)</td>
-        </tr>
-        <tr>
-            <td>17:10 - 17:40</td>
-            <td>Workload-driven Architecture Design and System Performance Optimization (Invited talk)</td>
-            <td>Prof. Zhibin Yu</td>
-            <td>Shenzhen Institute of Advanced Technology</td>
-        </tr>
-    </tbody>
-</table>
-
-
-    <h2>Important Dates</h2>
     <div class="important-dates">
+        <h3>Important Dates</h3>
         <ul>
-            <li><strong>Paper Submission Deadline:</strong> <s> April 30, 2025 </s> May 15, 2025</li>
-            <li><strong>Notification of Acceptance:</strong> <s> May 15, 2025 </s> May 21, 202 </li>
-            <li><strong>Camera-Ready Submission:</strong> May 30, 2025</li>
-            <li><strong>Workshop Date:</strong> June 21, 2025</li>
+            <li><strong>Paper Submission Deadline:</strong> 31 August 2025</li>
+            <li><strong>Notification of Acceptance:</strong> 15 September 2025</li>
+            <li><strong>Camera-Ready Submission:</strong> 30 September 2025</li>
+            <li><strong>Workshop Date:</strong> TBD (in conjunction with the conference taking place on October 18-22)</li>
         </ul>
     </div>
 
-    <h2>Topics of Interest</h2>
-   <ul>
-    <li>Innovative Data Engineering Algorithms Based on ARM Instruction Set and Pipeline:
+    <div class="topics">
+        <h3>Topics of Interest</h3>
+        <p>We invite submissions on a wide range of topics related to efficient processing and memory optimization for Large Language Models (LLMs), Large Multimodal Models (LMMs), and very long-context LLMs, including but not limited to:</p>
         <ul>
-            <li>Exploration of efficient algorithms optimized for ARM instruction sets and pipeline characteristics.</li>
-            <li>Techniques for leveraging ARM-specific features to enhance data processing and improve throughput.</li>
-            <li>Workload characterization for ARM-based enterprise applications including big data and AI applications.</li>
-            <li>Case studies on real-world applications and performance improvements.</li>
+            <li>Microarchitectures for power-efficient processing of LLMs, LMMs, and long-context LLMs.</li>
+            <li>Approximate computing techniques for large models, including structured and unstructured sparsity.</li>
+            <li>Dynamic quantization and mixed-precision approaches tailored for diverse layers in LLMs, LMMs, and models with extended contexts.</li>
+            <li>Adaptive approximation methods leveraging the unique characteristics of LLM and LMM layers, and long-context attention mechanisms.</li>
+            <li>Techniques for leveraging model resiliency to enhance memory efficiency in LLMs, LMMs, and long-context LLMs.</li>
+            <li>Novel data compression methods for reducing the memory footprint of large models, especially considering multimodal data and massive context windows.</li>
+            <li>Hardware-software co-design for optimized processing of LLMs, LMMs, and very long-context LLMs.</li>
+            <li>Trade-offs between accuracy, power, performance, and context length in large model optimization.</li>
+            <li>Case studies and benchmarks for efficient processing of LLMs, LMMs, and extreme long-context models.</li>
+            <li>Emerging technologies and memory solutions for sustainable deployment of next-generation large models.</li>
         </ul>
-    </li>
-    <li>Single-Core and Multi-Core High-Performance Microarchitecture Design for Typical Data Center Scenarios:
-        <ul>
-            <li>Design principles for Single-Core and Multi-Core performance of ARM-based data center processors targeting high performance in data center environments.</li>
-            <li>Techniques to optimize instruction-level parallelism, branch prediction, and cache utilization.</li>
-            <li>Evaluation of microarchitectural innovations through simulation and benchmarking.</li>
-        </ul>
-    </li>
-    <li>Multi-core/SoC architecture design for highly multi-threaded data center applications:
-        <ul>
-            <li>Synchronization characterization of highly multi-threaded data center applications.</li>
-            <li>Network-on-chip design for multi-core architectures.</li>
-            <li>NUMA effect optimizations.</li>
-        </ul>
-    </li>
-    <li>Hardware Accelerator Design for Data Center Typical Scenarios:
-        <ul>
-            <li>Development of specialized hardware accelerators tailored for ARM-based systems in data centers.</li>
-            <li>Integration of accelerators with ARM processors to offload compute-intensive tasks.</li>
-            <li>Case studies on accelerator deployment and performance benefits in typical data center workloads.</li>
-        </ul>
-    </li>
-    <li>Architecture and Application Tightly-Coupled Innovation for Typical Data Center Scenarios:
-        <ul>
-            <li>Exploration of tightly-coupled architectures that integrate ARM processors with other components (e.g., memory, accelerators).</li>
-            <li>Techniques for optimizing data flow and reducing latency in tightly-coupled systems.</li>
-            <li>Real-world applications and performance evaluations of tightly-coupled architectures in data centers.</li>
-        </ul>
-    </li>
-    <li>ARM Instruction Stream Trace Analysis and Optimization:
-        <ul>
-            <li>Methods for tracing and analyzing ARM instruction streams to identify performance bottlenecks.</li>
-            <li>Techniques for optimizing instruction sequences and improving execution efficiency.</li>
-            <li>Tools and frameworks for instruction stream analysis and optimization in ARM-based systems.</li>
-        </ul>
-    </li>
-</ul>
+    </div>
 
-
-    <h2>Submission Guidelines</h2>
     <div class="submission-guidelines">
+        <h3>Submission Guidelines</h3>
+        <p>EMR-LMP welcomes submissions of short papers, up to 3 pages excluding references, using a double-column format.</p>
         <ul>
-            <li>AGPC welcomes submissions of short papers, up to 3 pages excluding references, using a double-column format. You can use <a href="Workshop_paper_template-2.tex.zip">this Latex template</a>.</li>
-            <li>Submissions should state the research problem, motivation, and technical contribution. All submissions must be in English. The submissions should be sent in a single PDF file.</li>
+            <li>Submissions should clearly state the research problem, motivation, and technical contribution. All submissions must be in English.</li>
+            <li>Please submit your paper as a single PDF file.</li>
             <li>Papers can present work in progress, exploratory/preliminary research, or already published work.</li>
             <li>Submissions will be assessed based on their novelty, technical quality, potential impact, interest, clarity, relevance, and reproducibility.</li>
             <li>Reviews will not be blind, so please submit without anonymizing authors in the submitted PDF.</li>
-            <li>There will be no formal proceedings; papers will be posted on the workshop website, allowing authors the flexibility to extend and publish their work in other conferences and journals.</li>
+            <li>There will be no formal proceedings, allowing authors the flexibility to extend and publish their work in other conferences and journals.</li>
             <li>For each accepted paper, at least one author must attend the workshop and present the paper.</li>
+        </ul>
+        <p><a href="https://cmt3.research.microsoft.com/">Submit your paper here</a> (You must be a CMT registered user).</p>
+        <p><a href="https://cmt3.research.microsoft.com/">Register to CMT here</a></p>
+    </div>
+
+    <div class="program-committee">
+        <h3>Program Committee</h3>
+        <ul>
+            <li>Prof. Freddy Gabbay, The Hebrew University</li>
+            <li>Prof. Kingsum Chow, Zhejiang University</li>
+            <li>Prof. Tony Wu, Zhejiang University</li>
+            <li>Prof. Leng Jinwei, Shanghai Jiao Tong University</li>
+            <li>Dr. Zhou Yigang, Huawei</li>
+            <li>Dr. Wang Junsong, Huawei</li>
+            <li>Dr. Emily Rozenshine, Huawei Europe</li>
         </ul>
     </div>
 
-    <h3 id="paper-submission-system">Paper submission system:</h3>
-    <p><a href="https://cmt3.research.microsoft.com/AGPC2025">Submit your paper here</a> <br />
-    Please note you have to be a CMT registered user to submit. <br />      
-    <a href="https://cmt3.research.microsoft.com/User/Register">Register to CMT here</a></p>
+    <div class="contact">
+        <h3>Contact Us</h3>
+        <p>Any questions may be directed to: <a href="mailto:freddy.gabbay@mail.huji.ac.il">freddy.gabbay@mail.huji.ac.il</a></p>
+    </div>
 
-    <h2>Workshop Program Committee</h2>
-    <ul>
-            <p>
-            Prof. Fredd Gabbay, The Hebrew University
-            </p>
-            <p>
-            Assistant Professor Jie Zhang, Peking University, The School of Computer Science
-            </p>
-            <p>
-            Dr. Danny Zhou, Huawei China 
-            </p>
-            <p>
-            Huang Kaiyao, Huawei China  
-            </p>
-            <p>
-            Dr. Emily Rozenshine, Huawei Europe  
-            </p>
-    </ul>
-
-    <h2 id="contact-us">Contact Us</h2>
-        <p>Any questions may be directed to: freddy.gabbay@mail.huji.ac.il <br />
-    <br />
-    
-    <footer>
-        <p>&copy; 2025 ReMoS Workshop. All rights reserved.</p>
-    </footer>
 </body>
 </html>
